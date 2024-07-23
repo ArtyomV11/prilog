@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Экскурсии</title>
+  <link rel="stylesheet" type="text/css" href="style_prilog.css">
+  <link rel="manifest" href="manifest.json">
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="theme-color" content="#969696">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }, function(error) {
+          console.log('ServiceWorker registration failed: ', error);
+        });
+      });
+    }
+  </script>
+</head>
+<body>
+<header>
+  <div class="container"></div>
+  <img src="https://vao.mos.ru/upload/medialibrary/32f/ekskursovod_-turizm-fon.jpg" width="300" align="left" hspace="20">
+  <h1 align="center">Экскурсии</h1><br>
+  <h3 align="center">Москва - город, который открывается по-настоящему только пешим путешественникам. Каждый шаг - это погружение в историю, архитектуру и дух этого удивительного мегаполиса.</h3>
+</header>
+
+<main>
+  <section class="hero">
+    <h1 align="center">
+      <img src="https://mebellka.ru/wp-content/uploads/2/f/4/2f4c232c9b7204d3cef2dcbf51997976.jpeg" width="1100" height='300' alt="Фотография с экскурсии">
+    </h1>
+    <div class="hero-text">
+      <h2>Откройте для себя мир!</h2>
+      <p>Москва - это не просто столица России, это город-легенда, город-сказка, город-пазл, который складывается из многовековой истории, архитектурных шедевров, богатой культуры и невероятного духа. Она манит к себе путешественников со всех уголков мира, обещая незабываемые впечатления и открытия.</p>
+      <p>Москва - город, идеально подходящий для пеших прогулок. Каждый шаг - это погружение в атмосферу, которая пропитана духом прошлых эпох и современным ритмом жизни.</p>
+    </div>
+  </section>
+
+  <section class="popular-excursions">
+    <h2>Популярные экскурсии</h2>
+    <div class="excursions-grid">
+      <div class="excursion">
+        <h3>Классический маршрут</h3>
+        <a href="SAit_prilog.html" target="_blank">
+          <img src="https://gas-kvas.com/grafic/uploads/posts/2023-10/1696412739_gas-kvas-com-p-kartinki-kreml-20.jpg" width="300" height='300' alt="Фотография экскурсии 1">
+        </a>
+        <p>Сердце Москвы бьется на Красной площади. Невозможно представить себе Москву без ее визитной карточки - Красной площади. Это сердце города, место, где история оживает на каждом шагу. Здесь вы увидите величественный Кремль, хранящий тайны веков, красоту Храма Василия Блаженного, величественную соборную колокольню Ивана Великого, изящные стены ГУМа.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<hr>
+<footer>
+  <h2>Контакты</h2>
+  Название: "ЭкскурсМСК" <br>
+  Сайт: www.EcskursMSK.ru<br>
+  Телефон: +7 (800) 535-35-35<br>
+  Email: info@EcskursMSK.ru<br>
+</footer>
+</body>
+</html>
