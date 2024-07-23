@@ -2,7 +2,7 @@
   "name": "Экскурсии",
   "short_name": "Экскурсии",
   "description": "Приложение для экскурсий по Москве",
-  "start_url": "/SAit_prilog.html",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#969696",

@@ -3,7 +3,7 @@ self.addEventListener('install', function(event) {
     caches.open('static-v1').then(function(cache) {
       return cache.addAll([
         '/',
-        '/SAit_prilog.html',
+        '/index.html',
         '/style_prilog.css',
         '/icon-192x192.png',
         '/icon-512x512.png'
